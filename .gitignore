@@ -1,0 +1,7 @@
+# Vendor
+node_modules/
+src/lib/
+
+# Grunt generated files
+build/
+dist/

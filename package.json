@@ -1,0 +1,42 @@
+{ 
+  "author": "Stephen Melnicki",
+  "author_email": "smelnicki3@gmail.com",
+
+  "name":"polymer-todo",
+  "description": "todo tracking application utilizing google's polymer library",
+  "homepage": "https://github.com/smelnicki/polymer-todo",
+  "version": "0.0.1",
+  
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/smelnicki/polymer-todo/LICENSE.md"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:smelnicki/polymer-todo.git"
+  },
+
+  "dependencies": {
+
+  },
+
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-less": "~0.11.0",
+    "grunt-contrib-watch": "^0.4.4",
+    "grunt-contrib-jade": "latest",
+    "grunt-contrib-clean": "^0.4.1",
+    "grunt-contrib-copy": "^0.4.1",
+    "grunt-contrib-jshint": "^0.4.3",
+    "grunt-contrib-coffee": "^0.7.0",
+    "grunt-coffeelint": "~0.0.10"
+  },
+
+  "scripts": {
+      "postinstall": "bower install",
+
+      "prestart": "npm install",
+      "start": "http-server -p 8080"
+   }
+}

@@ -1,0 +1,27 @@
+{
+  "author": "Stephen Melnicki",
+  "author_email": "smelnicki3@gmail.com",
+
+  "name":"polymer-todo",
+  "description": "todo tracking application utilizing google's polymer library",
+  "homepage": "https://github.com/smelnicki/polymer-todo",
+  "version": "0.0.1",
+
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/smelnicki/polymer-todo/LICENSE.md"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:smelnicki/polymer-todo.git"
+  },
+
+  "dependencies": {
+    "angular": "~1.2.x",
+    "angular-route": "~1.2.x",
+    "polymer": "Polymer/polymer#~0.3.4",
+    "core-elements": "Polymer/core-elements#~0.3.4",
+    "paper-elements": "Polymer/paper-elements#~0.3.4"
+  }
+}
