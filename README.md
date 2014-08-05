@@ -12,7 +12,7 @@ Once you have those, just enter into your terminal
 
 `npm start`
 
-and it'll download the required dependencies and host the files on localhost:8080.
+and it'll download the required dependencies and host the files on [localhost:8080/src](http://localhost:8080/src).
 
 
 
