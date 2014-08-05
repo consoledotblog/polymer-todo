@@ -5,10 +5,10 @@ A todo web application meant to showcase [Google's polymer](http://www.polymer-p
 
 To run the application, you'll need the following dependencies installed:
 
-* [node.js]
-* [bower.js]
+* [node.js](http://nodejs.org/)
+* [bower package manager](http://bower.io/)
 
-Once you have those, just enter in
+Once you have those, just enter into your terminal
 
 `npm start`
 
